@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Palindrome</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;margin:2rem;background:#f9fafb;color:#111827}
+    main{max-width:760px;margin:auto}
+    input[type=text]{padding:.5rem;border:1px solid #d1d5db;border-radius:8px;width:100%;max-width:420px}
+    input[type=button]{padding:.5rem .8rem;border-radius:8px;border:0;background:#111827;color:#fff;margin-left:.25rem}
+    #resultat{margin-top:1rem;font-weight:700}
+  </style>
+</head>
+<body>
+  <header></header>
+  <main>
+    <h1>Mission 2 — Palindrome</h1>
+    <div id="boutton">
+      <form action="" method="get" onsubmit="return false">
+        <label for="id-mot-saisi">Mot à vérifier</label>
+        <input type="text" name="mot-saisi" id="id-mot-saisi" placeholder="Ex. radar" />
+        <input type="button" value="palindrome" onclick="palindrome()" />
+      </form>
+    </div>
+    <p id="resultat"></p>
+  </main>
+  <footer></footer>
+  <script src="./js/palindrome.js"></script>
+</body>
+</html>

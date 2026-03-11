@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Mot le plus long</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;margin:2rem;background:#f9fafb;color:#111827}
+    main{max-width:760px;margin:auto}
+    code{background:#111827;color:#f9fafb;padding:0.1rem 0.35rem;border-radius:0.25rem}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1rem 1.25rem;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+    #motPlusLong{font-weight:700;color:#065f46}
+  </style>
+</head>
+<body>
+  <header></header>
+  <main>
+    <h1>Mission 1 — Trouver le mot le plus long</h1>
+    <p class="card">Consigne (rappel) : à partir du paragraphe <code>#citation</code>, afficher dans <code>#motPlusLong</code> le mot le plus long en utilisant <code>String.prototype.replace</code> et <code>String.prototype.split</code>.</p>
+    <p id="citation">Choisissez un travail que vous aimez et vous n’aurez pas à travailler un seul jour de votre vie.</p>
+    <p>Mot le plus long : <span id="motPlusLong"></span></p>
+  </main>
+  <footer></footer>
+  <script src="./js/mot-plus-long.js"></script>
+</body>
+</html>

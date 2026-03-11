@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pyramide</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5;margin:2rem;background:#f9fafb;color:#111827}
+    fieldset{max-width:560px;border:1px solid #e5e7eb;border-radius:12px;padding:1rem;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+    input[type=text]{padding:.5rem;border:1px solid #d1d5db;border-radius:8px;width:100%;max-width:240px}
+    input[type=button]{padding:.5rem .8rem;border-radius:8px;border:0;background:#111827;color:#fff;margin-left:.25rem}
+    #pyramide{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;white-space:pre;line-height:1.2;margin-top:1rem}
+  </style>
+</head>
+<body>
+  <form action="" onsubmit="return false">
+    <fieldset>
+      <legend>Pyramide</legend>
+      <label for="ligne-pyramide">Entrer le nombre de lignes de votre pyramide</label>
+      <input type="text" name="ligne" id="ligne-pyramide" placeholder="Ex. 8" />
+      <input type="button" value="Afficher votre pyramide" onclick="construirePyramide()" />
+    </fieldset>
+  </form>
+  <p id="pyramide"></p>
+  <script src="./js/pyramide.js"></script>
+</body>
+</html>
